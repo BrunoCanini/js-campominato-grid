@@ -15,7 +15,7 @@ header{
     justify-content: space-between;
 }
 
-.btnHtml{
+#btnHtml{
     padding: 0.5rem;
     width: 6rem;
     border-radius: 0.5rem;
