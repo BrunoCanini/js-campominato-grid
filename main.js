@@ -16,6 +16,11 @@ btnPlay.addEventListener("click" , function(){
             box.innerText = element;
     
             contenitore.append(box)
+
+            box.addEventListener("click" , function(){
+                this.classList.add("enix")
+                console.log(element)
+            })
             
         }
 
@@ -23,3 +28,4 @@ btnPlay.addEventListener("click" , function(){
     }
 
 })
+
