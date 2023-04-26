@@ -1,11 +1,24 @@
+let contenitore = document.getElementById("container");
+
 const btnPlay = document.getElementById("btnHtml");
 
 btnPlay.addEventListener("click" , function(){
 
-    for (let i = 0; i < 100; i++) {
-        const element = i;
+    let pieno = true
 
-        console.log(i)
+    if( pieno = true){
+        for (let i = 1; i <= 100; i++) {
+            const element = i;
+    
+            let box = document.createElement("div");
+            box.classList.add("square");
+            box.innerText = element;
+    
+            contenitore.append(box)
+            
+        }
         
+        pieno = false
     }
+
 })
