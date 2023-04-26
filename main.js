@@ -2,11 +2,12 @@ let contenitore = document.getElementById("container");
 
 const btnPlay = document.getElementById("btnHtml");
 
+let pieno = true
+
 btnPlay.addEventListener("click" , function(){
 
-    let pieno = true
 
-    if( pieno = true){
+    if( pieno === true){
         for (let i = 1; i <= 100; i++) {
             const element = i;
     
@@ -17,7 +18,7 @@ btnPlay.addEventListener("click" , function(){
             contenitore.append(box)
             
         }
-        
+
         pieno = false
     }
 
