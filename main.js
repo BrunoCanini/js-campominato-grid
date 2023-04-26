@@ -18,7 +18,7 @@ btnPlay.addEventListener("click" , function(){
             contenitore.append(box)
 
             box.addEventListener("click" , function(){
-                this.classList.add("enix")
+                this.classList.toggle("enix")
                 console.log(element)
             })
             
