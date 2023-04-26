@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: rgb(6, 233, 157);
+    padding: 10rem;
+}
+
+header{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnHtml{
+    padding: 0.5rem;
+    width: 6rem;
+    border-radius: 0.5rem;
+
+}
+
+.container{
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    border: 1px solid black;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+
+.enix{
+    background-color: rgb(35, 177, 177);
+}
+
+
